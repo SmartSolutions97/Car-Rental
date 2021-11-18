@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/customers/")
+@RequestMapping("/api")
 public class CONTRO {
 
 
 
 
 
-    @GetMapping()
+    @GetMapping("/customers")
     public void gettt(){
         System.out.println("Dupa");
     }
